@@ -64,6 +64,10 @@ instance/
 # Sphinx documentation
 docs/_build/
 
+# Keys
+.pem
+.crt
+
 # PyBuilder
 target/
 

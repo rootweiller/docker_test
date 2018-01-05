@@ -1,0 +1,10 @@
+ngnix:
+  autoreadydeploy: true
+  image: 'docker/nginx:latest'
+  ports:
+    - '80:80' 
+
+
+python:
+  image: 'docker/python:latest'
+  command: python docker_test/app.py
